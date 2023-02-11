@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".scanner.QrGenerateActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Free Text"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black_shade"
+        android:fontFamily="@font/tinos"
+        android:layout_margin="5dp"
+        />
+
+    <EditText
+        android:id="@+id/text_one"
+        android:layout_width="371dp"
+        android:layout_height="191dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="Enter Text"
+        android:padding="10dp" />
+
+
+
+    <Button
+        android:id="@+id/generate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/tinos"
+        android:text="Generate QR Code"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download QR Code"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:drawableTop="@drawable/ic_download"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/tinos"
+        />
+
+</LinearLayout>

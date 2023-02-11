@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_margin="4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+
+
+            <!--Madrasha er logo dewa hobe eikhane-->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/company_logo"/>
+
+
+            <!--Madrasha er name dewa thakbe-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HP3 Software Solutions"
+                android:layout_marginLeft="16dp"
+                android:textSize="18sp"
+                android:textColor="@color/black_shade_1"
+                android:fontFamily="@font/tinos_italic"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date : "
+                    android:fontFamily="@font/tinos"
+                    android:textSize="@dimen/text_size1"
+                    android:textColor="@color/black_shade_1"
+                    />
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15/12/2021"
+                    android:fontFamily="@font/tinos"
+                    android:textSize="@dimen/text_size1"
+                    android:textColor="@color/black_shade_1"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time : "
+                    android:fontFamily="@font/tinos"
+                    android:textSize="@dimen/text_size1"
+                    android:textColor="@color/black_shade_1"
+                    android:layout_marginLeft="30dp"
+                    />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12:00"
+                    android:fontFamily="@font/tinos"
+                    android:textSize="@dimen/text_size1"
+                    android:textColor="@color/black_shade_1"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/deleteNoticeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tinos"
+            android:text="Notice link for apps"
+            android:textColor="@color/black_shade_1"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/deleteNoticeImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="10dp"
+            />
+
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

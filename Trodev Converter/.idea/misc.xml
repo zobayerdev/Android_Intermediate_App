@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/GItHub/Android Apps/Trodev Converter/app/src/main/res/layout/activity_qr_generate.xml" value="0.156640625" />
+        <entry key="..\:/Project_Files/app/src/main/res/drawable/circle_button.xml" value="0.22205128205128205" />
+        <entry key="..\:/Project_Files/app/src/main/res/drawable/custom_input.xml" value="0.22552083333333334" />
+        <entry key="..\:/Project_Files/app/src/main/res/layout/activity_dash_board.xml" value="0.18" />
+        <entry key="..\:/Project_Files/app/src/main/res/layout/activity_image_to_text.xml" value="0.209375" />
+        <entry key="..\:/Project_Files/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/Project_Files/app/src/main/res/layout/activity_qr_generate.xml" value="0.25" />
+        <entry key="..\:/Project_Files/app/src/main/res/layout/activity_qr_scanner.xml" value="0.18" />
+        <entry key="..\:/Project_Files/app/src/main/res/layout/activity_scan_gallery_qr.xml" value="0.25" />
+        <entry key="..\:/Project_Files/app/src/main/res/layout/activity_scan_qr_code.xml" value="0.209375" />
+        <entry key="..\:/Project_Files/app/src/main/res/layout/activity_scann_bar_code.xml" value="0.209375" />
+        <entry key="..\:/Project_Files/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Project_Files/app/src/main/res/menu/menu_main.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

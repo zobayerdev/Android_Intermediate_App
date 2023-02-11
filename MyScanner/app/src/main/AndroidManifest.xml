@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myscanner">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appiconn"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/appiconn"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyScanner">
+        <activity
+            android:name=".faltu"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".UniversityScanner"
+            android:exported="true" />
+        <activity
+            android:name=".StudentType"
+            android:exported="true" />
+        <activity
+            android:name=".StudentScanner"
+            android:exported="true" />
+        <activity
+            android:name=".OfficeScanner"
+            android:exported="true" />
+        <activity
+            android:name=".NextQR"
+            android:exported="true" />
+        <activity
+            android:name=".Refference"
+            android:exported="true" />
+        <activity
+            android:name=".Copyright"
+            android:exported="true" />
+        <activity
+            android:name=".Developer"
+            android:exported="true" />
+        <activity
+            android:name=".Aboutus"
+            android:exported="true" />
+        <activity
+            android:name=".User"
+            android:exported="true" />
+        <activity
+            android:name=".ScannerType"
+            android:exported="true" />
+        <activity
+            android:name=".Scanner"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

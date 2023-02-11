@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">My Scanner</string>
+    <string name="save">Save</string>
+    <string name="generate">Generate</string>
+    <string name="value_requires">Value Required</string>
+
+    <!-- Office Text -->
+    <string name="office_text1">Your Name</string>
+    <string name="office_text2">Phone Number</string>
+    <string name="office_text3">Your Post</string>
+    <string name="office_text4">Your User ID</string>
+    <string name="office_text5">Your Facebook Profile Link/profile name</string>
+    <string name="office_text6">Your Email</string>
+    <string name="office_text7">Your Whatsapp Number</string>
+
+
+    <!-- School Student Text -->
+    <string name="stu_text1">Your Name</string>
+    <string name="stu_text2">Your Class</string>
+    <string name="stu_text3">Your Phone_Number</string>
+    <string name="stu_text4">Your Class ID</string>
+    <string name="stu_text5">Your Facebook Profile Link/profile name</string>
+    <string name="stu_text6">Your Email</string>
+    <string name="stu_text7">Your Whatsapp Number</string>
+
+
+    <!-- School Student Text -->
+    <string name="var_text1">Your Name</string>
+    <string name="var_text2">Your Subject</string>
+    <string name="var_text3">Your Phone_Number</string>
+    <string name="var_text4">Your Class ID</string>
+    <string name="var_text5">Your Intake</string>
+    <string name="var_text6">Your Section</string>
+    <string name="var_text7">Your Versity Name</string>
+    <string name="var_text8">Your Facebook Profile Link/profile name</string>
+    <string name="var_text9">Your Email</string>
+    <string name="var_text10">Your Whatsapp Number</string>
+    <string name="var_text11">Your Linkdin Id</string>
+    <string name="var_text12">Your Twitter Id</string>
+
+
+    <string name="Bio_Data">Assalamualaikum. I am Md. Zobayer Hasan Nayem. I am currently studying in the Department of Computer Science and Engineering.
+        I am working in app development as well as studying. I have an IT firm. (HP3 Software Limited).
+        If you have any problems using in this app, please contact me via email or Whatsapp.
+    </string>
+    <string name="email">Email: zobayer.hp3@gmail.com \n Whatsapp Contact: +8801715553688 </string>
+    <string name="copyright">This apps document is protected by HP3 software Limited copyright Laws. Reproduction and distribution of the presentation without written permission of the sponsor(HP3) is prohibited.</string>
+    <string name="line">2021 copyright all reserverd by HP3 Software Limited.</string>
+    <string name="ref">Images for this app are taken from https://undraw.co/search.Thanks.</string>
+
+
+</resources>

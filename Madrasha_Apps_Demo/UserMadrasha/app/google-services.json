@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "63552842449",
+    "firebase_url": "https://madrasha-app-default-rtdb.firebaseio.com",
+    "project_id": "madrasha-app",
+    "storage_bucket": "madrasha-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63552842449:android:47d3a63a83177f4ca1f3f0",
+        "android_client_info": {
+          "package_name": "com.hpsoft.adminmadrasha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63552842449-jpqascl4uuudcm3khuuai1dhtcjij26o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hpsoft.adminmadrasha",
+            "certificate_hash": "5a5404dde3353cfbdd0b0a1161507b23f9b52a29"
+          }
+        },
+        {
+          "client_id": "63552842449-jl1ie4cml58emir9b8d23tk2c1p4a1dl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9ashkxIx2esLJZxD0C-fmOZKnRqyUzqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63552842449-jl1ie4cml58emir9b8d23tk2c1p4a1dl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63552842449:android:f957baa4a788bca3a1f3f0",
+        "android_client_info": {
+          "package_name": "com.hpsoft.usermadrasha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63552842449-e6fk5sqgsj58rg89d9f69clkpf8hm4lj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hpsoft.usermadrasha",
+            "certificate_hash": "5a5404dde3353cfbdd0b0a1161507b23f9b52a29"
+          }
+        },
+        {
+          "client_id": "63552842449-jl1ie4cml58emir9b8d23tk2c1p4a1dl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9ashkxIx2esLJZxD0C-fmOZKnRqyUzqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63552842449-jl1ie4cml58emir9b8d23tk2c1p4a1dl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".DashBoard">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trodev Converter"
+            android:fontFamily="@font/tinos"
+            android:layout_gravity="center"
+            android:textColor="@color/black_shade"
+            android:textSize="30sp"
+            />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            >
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginLeft="35dp"
+        >
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/convert_bttn"
+        android:layout_width="120dp"
+        android:layout_height="140dp"
+        android:layout_margin="10dp"
+        app:cardElevation="5dp"
+        android:backgroundTint="@color/black_shade"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/circle_button"
+                android:src="@drawable/ic_scanner"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/yellow_dark"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/tinos"
+                android:gravity="center"
+                android:text="Image To Text Converter"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginRight="35dp"
+        >
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/Scanner_bttn"
+        android:layout_width="120dp"
+        android:layout_height="140dp"
+        android:layout_margin="10dp"
+        app:cardElevation="5dp"
+        android:backgroundTint="@color/black_shade"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/circle_button"
+                android:src="@drawable/ic_scanner"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/yellow_dark"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/tinos"
+                android:gravity="center"
+                android:text="Language Translator"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginLeft="35dp"
+
+        >
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/scanner_bttn"
+            android:layout_width="120dp"
+            android:layout_height="140dp"
+            android:layout_margin="10dp"
+            app:cardElevation="5dp"
+            android:backgroundTint="@color/black_shade"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/circle_button"
+                    android:src="@drawable/ic_scanner"
+                    android:padding="10dp"
+                    android:layout_marginBottom="20dp"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/yellow_dark"
+                    android:layout_marginBottom="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/tinos"
+                    android:gravity="center"
+                    android:text="QR Scanner Generator"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="all copyright reserved Trodev Soft"
+        android:fontFamily="@font/tinos"
+        android:gravity="center"
+        android:textColor="@color/black_shade"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/about_us"
+        style="@style/Widget.Design.FloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="20dp"
+        android:elevation="3dp"
+        android:src="@drawable/ic_about_us"
+        app:fabSize="normal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="25dp"
+        android:elevation="3dp"
+        android:fontFamily="@font/tinos"
+        android:text="About us"
+        android:textColor="@color/black_shade"
+        android:textSize="15sp"
+        android:layout_marginTop="8dp"
+        />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

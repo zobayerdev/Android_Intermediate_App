@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">User Madrasha</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+
+    <string name="versity_bio">Bangladesh University of Business and Technology (BUBT) is a private university in
+        Bangladesh. It was established in 2003. It was established under the UGC approved Private University Act
+        2003 under the Ministry of Education of Bangladesh. The teaching method of North American University is
+        followed here, which is recognized by the University Grants Commission.The University is established by
+        the Dhaka Commerce College and is governed by a syndicate consisting of members of the Board of Trustees,
+        Principal and Chairman of the Dhaka Commerce College and other members of the Governing Body. Initially,
+        education started in the Commerce College building but now the university is conducting its teaching activities
+        in its own permanent campus Rupnagar A / A.There is also a large playground adjacent to the beribadh to develop
+        students sports thinking, which is located 15-20 minutes away from the campus.</string>
+
+
+</resources>

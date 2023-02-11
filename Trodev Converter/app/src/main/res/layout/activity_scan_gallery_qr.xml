@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".scanner.ScanGalleryQrActivity">
+
+
+
+    <com.budiyev.android.codescanner.CodeScannerView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        app:frameAspectRatioHeight="1"
+        app:frameAspectRatioWidth="1"
+        app:frameColor="@color/white"
+        app:frameCornersRadius="20dp"
+        app:frameSize="0.75"
+        app:frameThickness="3dp"
+        app:maskColor="#77000000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick image from gallery"
+        android:fontFamily="@font/tinos"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:onClick="browse"
+        />
+
+    <TextView
+        android:id="@+id/text_code"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Scanning Result"
+        android:textSize="20sp"
+        android:fontFamily="@font/tinos"
+        android:textIsSelectable="true"
+        android:textColor="@color/black_shade"
+        />
+
+</LinearLayout>
